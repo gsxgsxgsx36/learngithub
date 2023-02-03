@@ -1,4 +1,5 @@
-// TODO -- create header comments
+// my name is gurpreet singh 
+// this is for ubmission of khushi ist semeser java fundamental assignment 1b
 
 import java.util.Scanner;
 
@@ -37,7 +38,7 @@ double allCalculateCharge[] = new double[10];
 		String choice = inputMenuChoice.nextLine();
 		while (choice.equals("") || !isStringNumeric(choice))
 		{
-			System.out.println("Error - Menu selection name cannot be blank and must be numeric");
+			System.out.println("Error - Menu selection cannot be blank and must be numeric");
 
 			System.out.print("Enter choice==> ");
 
@@ -93,12 +94,12 @@ double allCalculateCharge[] = new double[10];
         // TODO -- check if maximum bookings has been reached (do this after getting the other functionality working)
 
 	Scanner userInput = new Scanner(System.in);	// TODO -- read in the booking name (as a string)
-        System.out.print("Enter the Booking Person Name ===> ");
+        System.out.print("Enter the Booking Person First name and Last name ===> ");
         String name = userInput.nextLine();
 	// TODO -- create validation loop (do this after getting the other functionality working)
                while (name.equals("")|| isStringWord(name))
 		{
-	                System.out.println("Error - name cannot be blank and must be Alphabetics");
+	                System.out.println("Error - Please Enter first name and last name , it cannot be blank and must be Alphabetics");
 			System.out.print("Enter the Booking Person Name ===> ");
 			name = userInput.nextLine();
 		}
